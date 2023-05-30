@@ -43,7 +43,7 @@ section {
 }
 
 .bg-grey {
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 .nav-links,
@@ -121,6 +121,7 @@ section {
 .browserbtn {
   background-color: #23272a;
   color:white;
+  padding: 10px 15px;
 }
 
 .herot {
@@ -223,37 +224,106 @@ div.col-small {
 
 }
 .areyouready {
+  font-size: 1.6rem;
   justify-content:center;
   text-align: center;
   background-color: transparent;
 }
+.macdwnld {
+  border-radius: 15px;
+  padding: 10px 15px;
+  font-weight: 500;
+  border:0;
+  background-color:#7289da;
+  color:white;
+  box-shadow: 3px 5px 10px rgb(36, 51, 134);
+  font-size:1rem;
+}
+.centerbutt{
+  display:flex;
+  justify-content: center;
+  padding-top:30px;
+  padding-bottom:30px;
+}
 
 /*FOOTER*/
-
 footer {
   background-color: #23272a;
   padding-top: 50px;
 }
 
 footer .col {
-  border: 1px dashed white;
   flex-grow: 1;
-  background-color: #20b2aa;
   min-height: 300px;
 }
 
 footer .col-large {
   width: 15%;
-  background-color: #f08080;
 }
 
-footer hr {
-  margin-top: 1.4rem;
-  margin-bottom: 1rem;
+.coltitle{
+  color:#7289da;
+  font-weight: 700;
+}
+
+.stf {
+  font-size: 2.3rem;
+}
+
+.register {
+  border-radius: 15px;
+  padding: 7px 10px;
+  border:0;
+  box-shadow: 3px 5px 10px rgb(20, 20, 20);
+  background-color:#7289da;
+}
+
+
+.footerlist {
+  list-style-type: none;
+  line-height: 2.5em;
+}
+
+.topf {
+  max-width:1400px;
+  margin: auto;
+}
+
+.socials {
+  background-color: white;
+  width:110px;
+  height:30px;
+}
+
+.language {
+  padding:20px;
+}
+
+.langtxt{
+  color:white;
+  line-height:20.14px;
+}
+
+
+.socicon {
+  padding:3px;
+  height:30px;
+  
+}
+
+.footert {
+  font-size: 2.2rem;
+}
+
+hr {
+  width:1400px;
+  margin:auto;
+  border:1px solid #7289da;
+  margin-bottom:0;
+  margin-top:0px;
 }
 
 .secondary-footer {
-  background-color: #7fffd4;
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
@@ -261,6 +331,10 @@ footer hr {
 
 .footer-logo,
 .footer-btn {
-  padding: 0.5rem;
-  background-color: #FFB6C1;
+  padding: 0.2rem;
+}
+
+.footerlist li {
+  color:white;
+  line-height: 2em;
 }
