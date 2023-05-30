@@ -309,6 +309,7 @@ padding-top:10px;
 
 .itflag {
   vertical-align:text-bottom;
+  width:30px;
 }
 
 .langtxt{
@@ -319,6 +320,7 @@ padding-top:10px;
 .socicon {
   padding:3px;
   height:30px;
+  width:30px;
   
 }
 
