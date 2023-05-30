@@ -31,17 +31,14 @@ section {
   padding-bottom: 2rem;
 }
 
-footer {
-  background-color: #23272a;
-  padding-top: 6px;
-}
+
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.bg-yellow {
+.navcolor {
   color:white;
 }
 
@@ -69,14 +66,13 @@ footer {
   display: flex;
   justify-content: center;
   padding:10px;
-
 }
 
 .nav-links ul a {
   display: inline-block;
   padding: 0 0.3rem;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
   padding: 0 25px;
 }
 
@@ -88,7 +84,7 @@ footer {
   border:0px;
 }
 
-.loginb:hover {
+.loginb, .dwnloadbtn, .browserbtn {
   box-shadow: 3px 5px 10px rgb(36, 51, 134);
 }
 
@@ -127,14 +123,14 @@ footer {
   color:white;
 }
 
-.container h1 {
+.herot {
   color:white;
   font-size: 3.2rem;
   text-align: center;
   padding-top:10px;
 }
 
-.container p {
+.herop {
   color:white;
   vertical-align: baseline;
   font-weight: inherit;
@@ -143,30 +139,100 @@ footer {
   line-height: 2em;
 }
 
+/*MAIN*/
+
 .row {
   display: flex;
 }
 
+.titlesec {
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+.paragsec {
+  margin-top:20px;
+  line-height: 1.8em;
+}
+
+.centxt {
+  text-align: center;
+}
+
+
+
 .col-large,
 .col-small {
-  border: 1px dashed black;
-  min-height: 300px;
+  min-height: 400px;
+  
 }
 
-.col-large {
-  width: 60%;
-  background-color: #1e90ff;
+div.col-small {
+  text-align: left;
+  color:black;
+}
+
+
+
+.col-large  {
+  width: 70%;
+  height:450px;
+}
+
+.chatimage {
+  background-image: url("../img/item1.svg");
+  background-repeat: no-repeat;
+}
+
+.voicechatimg {
+  background-image: url("../img/item2.svg");
+  background-repeat: no-repeat;
+  border-left:1px solid transparent;
+  margin-left:100px;
+}
+
+.rolesimg {
+  background-image: url("../img/item3.svg");
+  background-repeat: no-repeat;
 }
 
 .col-small {
-  width: 40%;
-  background-color: #ffc0cb;
+  width: 30%;
 }
 
+/**/
+
 .box-green {
-  border: 1px dashed black;
   min-height: 500px;
-  background-color: #228b22;
+  background-image: url("../img/item4-big.svg");
+  background-repeat: no-repeat;
+  border-left:1px solid transparent;
+  margin-left:150px;
+}
+
+.starsbg {
+  background-image: url("../img/stars.svg");
+  background-repeat: no-repeat;
+  max-width:550px;
+  height:100px;
+  margin:auto;
+  margin-top: 50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+.areyouready {
+  justify-content:center;
+  text-align: center;
+  background-color: transparent;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #23272a;
+  padding-top: 50px;
 }
 
 footer .col {
@@ -179,7 +245,6 @@ footer .col {
 footer .col-large {
   width: 15%;
   background-color: #f08080;
-  border-color: black;
 }
 
 footer hr {
@@ -196,7 +261,6 @@ footer hr {
 
 .footer-logo,
 .footer-btn {
-  border: 1px dashed black;
   padding: 0.5rem;
   background-color: #FFB6C1;
 }
